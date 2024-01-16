@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4859D92B562625009CF077 /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4859D82B562625009CF077 /* WeSplit.swift */; };
 		CDF7F45F2B4D34BF009A963C /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF7F45E2B4D34BF009A963C /* iOSApp.swift */; };
 		CDF7F4612B4D34BF009A963C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF7F4602B4D34BF009A963C /* ContentView.swift */; };
 		CDF7F4632B4D34C1009A963C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF7F4622B4D34C1009A963C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD4859D82B562625009CF077 /* WeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
 		CDF7F45B2B4D34BF009A963C /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF7F45E2B4D34BF009A963C /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		CDF7F4602B4D34BF009A963C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				CDF7F4602B4D34BF009A963C /* ContentView.swift */,
 				CDF7F4622B4D34C1009A963C /* Assets.xcassets */,
 				CDF7F4642B4D34C1009A963C /* Preview Content */,
+				CD4859D82B562625009CF077 /* WeSplit.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF7F4612B4D34BF009A963C /* ContentView.swift in Sources */,
+				CD4859D92B562625009CF077 /* WeSplit.swift in Sources */,
 				CDF7F45F2B4D34BF009A963C /* iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
