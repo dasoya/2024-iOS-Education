@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CD4859DD2B567281009CF077 /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4859DC2B567281009CF077 /* WeSplit.swift */; };
 		CD4859E52B5F82F2009CF077 /* GuessTheFlagUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4859E42B5F82F2009CF077 /* GuessTheFlagUIView.swift */; };
+		CD4859F72B68E1C4009CF077 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4859F62B68E1C4009CF077 /* TodoListView.swift */; };
+		CD4859F92B68E1E3009CF077 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4859F82B68E1E3009CF077 /* TodoItem.swift */; };
+		CD4859FB2B68E202009CF077 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4859FA2B68E202009CF077 /* TodoListViewModel.swift */; };
 		CDF7F45F2B4D34BF009A963C /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF7F45E2B4D34BF009A963C /* iOSApp.swift */; };
 		CDF7F4612B4D34BF009A963C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF7F4602B4D34BF009A963C /* ContentView.swift */; };
 		CDF7F4632B4D34C1009A963C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF7F4622B4D34C1009A963C /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		CD4859DC2B567281009CF077 /* WeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
 		CD4859E42B5F82F2009CF077 /* GuessTheFlagUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagUIView.swift; sourceTree = "<group>"; };
+		CD4859F62B68E1C4009CF077 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		CD4859F82B68E1E3009CF077 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		CD4859FA2B68E202009CF077 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		CDF7F45B2B4D34BF009A963C /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF7F45E2B4D34BF009A963C /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		CDF7F4602B4D34BF009A963C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD4859F52B68E1A2009CF077 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				CD4859F62B68E1C4009CF077 /* TodoListView.swift */,
+				CD4859F82B68E1E3009CF077 /* TodoItem.swift */,
+				CD4859FA2B68E202009CF077 /* TodoListViewModel.swift */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
 		CDF7F4522B4D34BF009A963C = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +114,7 @@
 		CDF7F45D2B4D34BF009A963C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CD4859F52B68E1A2009CF077 /* TodoList */,
 				CDF7F45E2B4D34BF009A963C /* iOSApp.swift */,
 				CDF7F4602B4D34BF009A963C /* ContentView.swift */,
 				CDF7F4622B4D34C1009A963C /* Assets.xcassets */,
@@ -265,7 +282,10 @@
 			files = (
 				CDF7F4612B4D34BF009A963C /* ContentView.swift in Sources */,
 				CD4859DD2B567281009CF077 /* WeSplit.swift in Sources */,
+				CD4859FB2B68E202009CF077 /* TodoListViewModel.swift in Sources */,
+				CD4859F72B68E1C4009CF077 /* TodoListView.swift in Sources */,
 				CD4859E52B5F82F2009CF077 /* GuessTheFlagUIView.swift in Sources */,
+				CD4859F92B68E1E3009CF077 /* TodoItem.swift in Sources */,
 				CDF7F45F2B4D34BF009A963C /* iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
